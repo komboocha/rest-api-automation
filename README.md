@@ -40,7 +40,7 @@ After a successful update a 202 and updated player's details are returned. If th
 Endpoint requires API-KEY header and V1stul4!@2021 value. It should return 200, no header - 401, incorrect header - 403.
 
 
-The following test for the API have been written:
+The following test for the API have been written (tests folder, test_players file):
 - Get the list of players.
 - Create a new player and ask for their details. 
 - Update an existing player and check their details after the update. 
